@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1 javascript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+
+    
+    var num1= prompt("Escribe un número")
+    var num2= prompt("Escribe un número")
+    var num3= prompt("Escribe un número")
+    var suma= parseInt(num1)+ parseInt(num2)+parseInt(num3)
+    var media= suma/3
+    $("#output").append("La media es " + media +"<br/>");
+ 
+});
+
+</script>
+
+</head>
+<body>
+    <p id="output"></p>
+    
+</body>
+</html>
