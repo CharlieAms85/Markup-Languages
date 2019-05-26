@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 13 javascript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    
+    var vel1=parseInt(prompt("Velocidad en km/h"))
+    var vel2=parseInt(prompt("Velocidad en km/h"))
+    var distancia=parseInt(prompt("Ingrese la distancia entre los dos coches en metros"))
+    var tiempo=distancia/(vel1-vel2)
+    var min=tiempo*60;
+    $("#output").html("Si el coche 1 va a "+vel1+" km/h y el 2 va a "+vel2+" km/h estando a "+distancia+" km de distancia, el tiempo necesario para alcanzarse es de: "+min+" minutos");
+});
+
+</script>
+
+</head>
+<body>
+    <p id="output"></p>
+    
+</body>
+</html>

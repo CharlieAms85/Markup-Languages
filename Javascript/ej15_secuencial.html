@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 13 javascript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    
+    var num1=parseInt(prompt("Ingresa un numero"))
+    var num2=parseInt(prompt("Ingresa otro numero"))
+    var c=num1
+    num1=num2
+    num2=c
+
+
+    $("#output").html("El valor de num1 es " + num1 + " El valor de num2 es " + num2)
+
+});
+
+</script>
+
+</head>
+<body>
+    <p id="output"></p>
+    
+</body>
+</html>

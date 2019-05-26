@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1 javascript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    
+    var parc1=parseInt(prompt("Introduce nota1"));
+    var parc2=parseInt(prompt("Introduce nota2"));
+    var parc3=parseInt(prompt("Introduce nota3"));
+
+    var promedio=parc1+parc2+parc3/3
+    var ex=parseInt(prompt("Introduce nota examen"));
+    var trab=parseInt(prompt("Introduce nota trabajo"));
+    var parc=promedio*0.55;
+    var examen=ex*0.3
+    var trabajo=trab*0.15
+    var calif= parc+examen+trabajo
+
+    $("#output").append("Tu calificación es de : " + calif + "<br/>");
+});
+
+</script>
+
+</head>
+<body>
+    <p id="output"></p>
+    
+</body>
+</html>

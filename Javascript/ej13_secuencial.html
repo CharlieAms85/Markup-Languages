@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 13 javascript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+ 
+   var num=parseInt(prompt("Entre un número"))
+   var raiz2=Math.sqrt(num)
+   var exp=3
+   var raiz3=Math.pow(num,1/exp)
+    $("#output").append("La raíz cuadrada del numero es:" + raiz2 + "<br/>")
+    $("#output").append("La raíz cúbica del numero es:" + raiz3 + "<br/>")
+});
+
+</script>
+
+</head>
+<body>
+    <p id="output"></p>
+    
+</body>
+</html>

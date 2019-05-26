@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 13 javascript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    
+            var h=parseFloat(prompt("En que hora sale"));
+            var m=parseFloat(prompt("En que minuto sale"));
+            var s=parseFloat(prompt("En que segundo sale"));
+            var tiempo=(h*3600)+(m*60)+(s);
+            var tt=parseInt(prompt("Cuantos segundos tarda en llegar"));
+            var t2=parseInt((tiempo)+(tt));
+            var h2=parseInt(t2/3600);
+            var resto=t2%3600;
+            var m2=parseInt(resto/60);
+            var s2=resto%60;    
+
+
+    $("#output").html("La hora de llegada es "+h2+" horas "+m2+" minutos "+s2+" segundos.")
+
+});
+
+</script>
+
+</head>
+<body>
+    <p id="output"></p>
+    
+</body>
+</html>

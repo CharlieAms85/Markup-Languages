@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1 javascript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+
+  
+   var C1P1=parseInt(prompt("Coordenadas del punto 1"))
+   var x1=C1P1
+   var C2P1=parseInt(prompt("Coordenadas del punto 2"))
+   var x2=C2P1
+   var C1P2=parseInt(prompt("Coordenadas del punto 1"))
+   var y1=C1P2
+   var C2P2=parseInt(prompt("Coordenadas del punto 2"))
+   var y2=C2P2
+   var c1=x1-x2
+   var c2=y1-y2
+   var dist=Math.sqrt(c1*c1 +c2*c2)
+    $("#output").append("La distancia es:" + dist + " metros <br/>");
+});
+
+</script>
+
+</head>
+<body>
+    <p id="output"></p>
+    
+</body>
+</html>
