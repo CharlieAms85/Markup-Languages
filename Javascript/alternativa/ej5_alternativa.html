@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>alternativeStructure05</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var usuario=prompt("Introduzca usuario");
+            var contraseña=prompt("Introduzca contraseña");
+            if (usuario==="pepe" && contraseña==="asdasd")
+            {
+                $("#output").html("Has entrado al sistema, bienvenido "+usuario);
+            }
+            else
+            {
+                $("#output").html("Error, el usuario "+usuario+" no existe");
+            }
+        });
+    </script>
+</head>
+<body>
+    <p>Escribe un programa que pida un nombre de usuario y una contraseña y si se ha introducido “pepe” y “asdasd” se indica “Has entrado al sistema”, sino se da un error.</p>
+    <p id="output"></p>
+</body>
+</html>

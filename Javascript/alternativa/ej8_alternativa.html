@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>alternativeStructure08</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            var nota = parseInt(prompt("Introduce nota"));
+            var edad = parseInt(prompt("Introduce edad"));
+            var sexo = prompt("Introduce sexo (M/F)");
+            var sexM=sexo.toUpperCase();
+            if (nota >= 5 && age >= 18) {
+                if (sexo === "f" || sexo === "F") {
+                    $("#output").html("Aceptada");
+                }
+                else if (sexo === "m" || sexo === "M") {
+                    $("#output").html("Posible");
+                }
+                else{
+                    $("#output").html("Introduce valor valido en el campo sexo");
+                }
+            }
+            else {
+                $("#output").html("No aceptada");
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <p>Algoritmo que pida dos números ‘nota’ y ‘edad’ y un carácter ‘sexo’ y muestre el mensaje ‘ACEPTADA’ si la nota es mayor o igual a cinco, la edad es mayor o igual a dieciocho y el sexo es ‘F’. En caso de que se cumpla lo mismo, pero el sexo sea ‘M’, debe imprimir ‘POSIBLE’. Si no se cumplen dichas condiciones se debe mostrar ‘NO ACEPTADA’.</p>
+    <p id="output"></p>
+</body>
+
+</html>
