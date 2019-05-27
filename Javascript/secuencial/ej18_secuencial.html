@@ -9,15 +9,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-            var name=prompt("Introduzca su nombre");
-            var ape1=prompt("Introduzca su primer apellido");
-            var ape2=prompt("Introduzca su primer apellido");
-            $("#outputIni").html("Su nombre es: "+name+" "+ape1+" "+ape2+". Por tanto sus inciales seran: " +name.charAt(0)+ape1.charAt(0)+ape2.charAt(0));
+            var nombre=prompt("Introduzca su nombre");
+            var apellido1=prompt("Introduzca su primer apellido");
+            var apellido2=prompt("Introduzca su primer apellido");
+            $("#output").html("Su nombre es: "+name+" "+ape1+" "+ape2+".Sus inciales seran: " +name.charAt(0)+ape1.charAt(0)+ape2.charAt(0));
         });
     </script>
 </head>
 <body>
     <p>Pedir el nombre y los dos apellidos de una persona y mostrar las iniciales.</p>
-    <p id="outputIni"></p>
+    <p id="output"></p>
 </body>
 </html>
