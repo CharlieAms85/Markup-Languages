@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculadora</title>
+
+    <style>
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+           $(".count").click(function (){
+            var textarea=($("textarea").val())
+            var vector = textarea.split(" ")
+            var num=parseInt(vector.length)
+        
+                $("#output").append("El numero de letras son:" + num + "<br/>")
+           })
+        });
+         
+    </script>
+</head>
+<body>
+    <textarea rows="10" cols="40">Escribe aquí tu texto</textarea> 
+    <button class="count" value="Contar palabras">Contar palabras</button>
+    <p id="output"></p>
+</body>
+</html>
