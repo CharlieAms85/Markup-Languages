@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<facts>
+  <fact>
+      <hfd year="1981">BN presents the PC</hfd>
+      <day>12</day>
+      <month>8</month>
+     >
+  </fact>
+  <fact>
+      <hfd year="1998">Google is established</hfd>
+      <day>4</day>
+      <month>9</month>
+      
+  </fact>
+  <fact>
+      <hfd year="2004">Facebook is established</hfd>
+      <day>4</day>
+      <month>2</month>
+  </fact>
+</facts>

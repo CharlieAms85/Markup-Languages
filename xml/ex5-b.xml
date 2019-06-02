@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <historicalfactdescriptions>
+    <historicalfactdescription>IBN presents the PC year="1981"</historicalfactdescription>
+    <historicalfactdescription>Google is established year="1998"</historicalfactdescription>
+    <historicalfactdescription>Facebook is established year="2004"</historicalfactdescription>
+  </historicalfactdescriptions>
+  <days>
+    <day>12</day>
+    <day>4</day>
+    <day>4</day>
+  </days>
+  <months>
+    <month>8</month>
+    <month>9</month>
+    <month>2</month>
+    </months>
+</root>

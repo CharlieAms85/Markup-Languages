@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <names>
+    <name>NewDelhi</name>
+    <name>Lisbon</name>
+    <name>Tangier</name>
+  </names>
+  <countries>
+    <country>India continent="Asia" </country>
+    <country>Portugal continent="Europe"</country>
+    <country>Egypt continent="Africa"</country>
+  </countries>
+</root>

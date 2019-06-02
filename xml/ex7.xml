@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grades>
+  <student id="001" name="Pablo">
+    <grade subject="History" exam="8"></grade>
+    <grade subject="Literature" exam="10"></grade>
+  </student>
+  <student id="002" name="Alvaro">
+    <grade subject="History" exam="4"></grade>
+    <grade subject="Literature" exam="2"></grade>
+    </student>
+  <student id="003" name="David">
+    <grade subject="History" exam="9"></grade>
+    <grade subject="Literature" exam="9"></grade>
+      </student>
+  <student id="004" name="Jose Antonio">
+    <grade subject="History" exam="5"></grade>
+    <grade subject="Literature" exam="5"></grade>
+      </student>
+  <student id="005" name="Miguel">
+    <grade subject="History" exam="7"></grade>
+    <grade subject="Literature" exam="3"></grade>
+      </student>
+  <student id="006" name="Javier">
+    <grade subject="History" exam="1"></grade>
+    <grade subject="Literature" exam="1"></grade>
+      </student>
+  <student id="007" name="Juan">
+    <grade subject="History" exam="6"></grade>
+    <grade subject="Literature" exam="4"></grade>
+      </student>
+  <student id="008" name="Carlos">
+    <grade subject="History" exam="10"></grade>
+    <grade subject="Literature" exam="10"></grade>
+      </student>
+  <student id="009" name="Eugenio">
+    <grade subject="History" exam="0"></grade>
+    <grade subject="Literature" exam="0"></grade>
+  </student>
+  <student id="010" name="Israel">
+    <grade subject="History" exam="2"></grade>
+    <grade subject="Literature" exam="2"></grade>
+  </student>
+</grades>

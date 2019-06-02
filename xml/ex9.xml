@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cookbook>
+  <recipe name="Tortilla de Patata">
+    <ingredients>
+      <ingredient name="eggs" quantity="4"></ingredient>
+      <ingredient name="potatoe" quantity="7"></ingredient>
+      <ingredient name="olive oil" quantity="1 tablespoon"></ingredient>
+      <ingredient name="onion" quantity="1"></ingredient>
+    </ingredients>
+    <steps>
+      <step>1.Peal the potatoes and Onions</step>
+      <step>2.Cut the potatoes in slices and cut the onion very small</step>
+      <step>3.Fry the onions and the potatoes separetly</step>
+      <step>4.Beat the eggs and put all the ingredients together</step>
+      <step>5.Put the olive oil in a pan and let it heat</step>
+      <step>6.Pour the mixture of ingredients into the pan</step>
+      <step>7.Flip the tortilla</step>
+    </steps>
+  </recipe>
+  <recipe name="French omelete">
+    <ingredients>
+      <ingredient name="eggs" quantity="2"></ingredient>
+      <ingredient name="olive oil" quantity="1 tablespoon"></ingredient>
+    </ingredients>
+    <steps>
+      <step>1.Beat the eggs in a plate</step>
+      <step>2.Put the olive oil in a pan and let it heat</step>
+      <step>3.Pour the beated egss into the pan</step>
+      <step>4.Flip half of the omelet in the opposite direction </step>
+      <step>5.Flip the omelet</step>
+    </steps>
+  </recipe>
+</cookbook>

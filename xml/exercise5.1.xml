@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbolleague[
+  <!ELEMENT futbolleague (match*)>
+  <!ELEMENT match (local, visiting)>
+  <!ELEMENT local (name, goals)>
+  <!ELEMENT visiting (name, goals)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT goals (#PCDATA)>
+]>
+
+<futbolleague>
+  <match>
+      <local>
+        <name>Nottingham Presa</name>
+        <goals>0</goals>
+      </local>
+      <visiting>
+        <name>Inter de Mitente</name>
+        <goals>1</goals>
+      </visiting>
+  </match>
+  <match>
+      <local>
+       <name>Vodka Juniors</name>
+        <goals>3</goals>
+      </local>
+      <visiting>
+        <name>Sparta da Risa</name>
+        <goals>3</goals>
+    </visiting>
+  </match>
+  <match>
+    <local>
+      <name>Water de Munich</name>
+      <goals>4</goals>
+    </local>
+    <visiting>
+      <name>Esteaua es del grifo</name>
+      <goals>2</goals>
+    </visiting>
+  </match>
+</futbolleague>

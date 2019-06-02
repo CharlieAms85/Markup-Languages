@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<singers>
+  <singer1>
+    <firstname>Paul</firstname>
+    <lastname>McCartney</lastname>
+    <gender>Male</gender>
+ </singer1>
+ <singer2>
+   <firstname>Aretha</firstname>
+   <lastname>Franklin</lastname>
+   <gender>Female</gender>
+ </singer2>
+</singers>

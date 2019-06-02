@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<busroute name="El Paseillo">
+<stop name="Virgen de Luján" schedule="08:00" information="zone A"></stop>
+<stop name="Metro Blas Infante" schedule="08:10" information="zone A"></stop>
+<stop name="Av. Blas Infante" schedule="08:20" information="zone A"></stop>
+<stop name="Hipercor" schedule="08:30" information="zone B"></stop>
+<stop name="Metro San Juan Bajo" schedule="08:40" information="zone B"></stop>
+<stop name="Ambulatorio" schedule="08:50" information="zone B"></stop>
+<stop name="San Juan Bajo" schedule="09:00" information="zone B"></stop>
+<stop name="San Juan Alto" schedule="09:10" information="zone B"></stop>
+<stop name="Supermercado Mas" schedule="09:20" information="zone B"></stop>
+<stop name="Aleros" schedule="09:30" information="zone B"></stop>
+<stop name="Altos Simón Verde" schedule="09:40" information="zone B"></stop>
+<stop name="Los Alcores" schedule="09:50" information="zone B"></stop>
+<stop name="Las Brisas" schedule="10.00" information="zone B"></stop>
+<stop name="Metro Ciudad Expo" schedule="10.10" information="zone B"></stop>
+<stop name="Av. San Juan" schedule="10.20" information="zone B"></stop>
+<stop name="c/ Nueva" schedule="10.30" information="zone B"></stop>
+<stop name="Urb. Estacada del Marques" schedule="10.40" information="zone C"></stop>
+<stop name="Av. Almensilla" schedule="10.50" information="zone C"></stop>
+<stop name="urb. Pozoblanco" schedule="11:00" information="zone C"></stop>
+<stop name="Rotonda de entrada" schedule="11:10" information="zone C"></stop>
+<stop name="Colegio" schedule="11:20" information="zone C"></stop>
+<stop name="Cementerio" schedule="11:30" information="zone C"></stop>
+</busroute>
